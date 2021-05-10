@@ -1,0 +1,504 @@
+html {
+  background-image: url(魚たくさん.png);
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  align-items: center;
+}
+
+body {
+  width: 1440px;
+  align-items: center;
+  text-align:center;
+  font-size: 32px;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+}
+main { 
+  width: 1440px;
+  position: center;
+  align-items: center;
+}
+
+.title_box {
+  align-items: center;
+}
+
+img{
+  width: 1440px;
+  height: 200px;
+}
+
+/* ボタン開閉 */
+.ocbutton_1 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_2 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_3 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_4 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_5 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_6 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_7 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_8 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_9 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_10 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_11 {
+  display: none;
+  cursor: pointer;
+}
+
+.ocbutton_12 {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* ボタンの色 */
+.ocbutton_1 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_2 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+.ocbutton_3 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_4 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+.ocbutton_5 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_6 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+.ocbutton_7 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_8 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+.ocbutton_9 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_10 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+.ocbutton_11 + label {
+  cursor: pointer;
+  background-color: rgb(247, 216, 247);
+  padding: 3px;
+}
+
+.ocbutton_12 + label {
+  cursor: pointer;
+  background-color: rgb(216, 247, 247);
+  padding: 3px;
+}
+
+/* マウスがボタンの上にある時 */
+.ocbutton_1 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_2 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+.ocbutton_3 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_4 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+.ocbutton_5 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_6 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+.ocbutton_7 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_8 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+.ocbutton_9 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_10 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+.ocbutton_11 + label:hover { 
+  background-color: rgb(245, 196, 245);
+}
+
+.ocbutton_12 + label:hover { 
+  background-color: rgb(196, 231, 245);
+}
+
+/* 非表示時の文字*/
+.ocbutton_1 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_2 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_3 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_4 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_5 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_6 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_7 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_8 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_9 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_10 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_11 + label:before { 
+  content:"▼click  open"
+}
+
+.ocbutton_12 + label:before { 
+  content:"▼click  open"
+}
+
+/* 表示時の文字*/
+.ocbutton_1:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_2:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_3:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_4:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_5:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_6:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_7:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_8:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_9:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_10:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_11:checked + label:before {
+  content:"▲click close"
+}
+
+.ocbutton_12:checked + label:before {
+  content:"▲click close"
+}
+
+
+.oc_content_1 {
+  display: none;
+}
+
+.oc_content_2 {
+  display: none;
+}
+
+.oc_content_3 {
+  display: none;
+}
+
+.oc_content_4 {
+  display: none;
+}
+
+.oc_content_5 {
+  display: none;
+}
+
+.oc_content_6 {
+  display: none;
+}
+
+.oc_content_7 {
+  display: none;
+}
+
+.oc_content_8 {
+  display: none;
+}
+
+.oc_content_9 {
+  display: none;
+}
+
+.oc_content_10 {
+  display: none;
+}
+
+.oc_content_11 {
+  display: none;
+}
+
+.oc_content_12 {
+  display: none;
+}
+
+
+#b01:checked ~ #b01_content_1 {
+  display:block;
+}
+
+#b02:checked ~ #b02_content_2 {
+  display:block;
+}
+
+#b03:checked ~ #b03_content_3 {
+  display:block;
+}
+
+#b04:checked ~ #b04_content_4 {
+  display:block;
+}
+
+#b05:checked ~ #b05_content_5 {
+  display:block;
+}
+
+#b06:checked ~ #b06_content_6 {
+  display:block;
+}
+
+#b07:checked ~ #b07_content_7 {
+  display:block;
+}
+
+#b08:checked ~ #b08_content_8 {
+  display:block;
+}
+
+#b09:checked ~ #b09_content_9 {
+  display:block;
+}
+
+#b10:checked ~ #b10_content_10 {
+  display:block;
+}
+
+#b11:checked ~ #b11_content_11 {
+  display:block;
+}
+
+#b12:checked ~ #b12_content_12 {
+  display:block;
+}
+
+/*開いた時の見た目*/
+.oc_content_1, .oc_content_3, .oc_content_5, .oc_content_7, .oc_content_9, .oc_content_11  { 
+  width: 1400px;
+  padding: 0px;
+  margin: 15px 5px;
+  color: #565656;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+  border: dashed 2px #ffc3c3;
+  border-radius: 8px;
+}
+
+.oc_content_2, .oc_content_4, .oc_content_6, .oc_content_8, .oc_content_10, .oc_content_12 { 
+  width: 1400px;
+  padding: 0px;
+  margin: 15px 5px;
+  color: #565656;
+  background: #cef4f7;
+  box-shadow: 0px 0px 0px 10px #cef4f7;
+  border: dashed 2px #9abeec;
+  border-radius: 8px;
+}
+
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display:table;  /* 定義 */
+  table-layout: auto;
+  width: 260px;
+  height: 30px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+li {
+  list-style-type:none;
+  border: 1px solid gray;
+  background-color: #FFF;
+  display:table-cell;  /* 定義 */
+  cursor: pointer;
+  align-items: center;
+  border-radius: .2em;
+}
+
+li:hover {
+  background: #0066CC;
+  color:#fff;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  font-size:80%;
+}
+
+textarea {
+  width: 250px;
+  height: 200px;
+  font-size: 80%;
+  margin-top: 10px;
+  border-radius: .1em;
+}
+
+.BOX {
+	width: 1400px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.BOX_1, .BOX_2, .BOX_3, .BOX_4, .BOX_5, .BOX_6, .BOX_7, .BOX_8, .BOX_9, .BOX_10, .BOX_11, .BOX_12 {
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+  
+}
+
+.BOX_small {
+	width: 270px;
+  height: 460px;
+}
+
+
